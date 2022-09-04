@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style type="text/css">
+        body
+        {
+            background-color:bisque;
+        }
+        table
+        {
+            padding: 3px;
+        }
+        form
+        {
+            width: 80%;
+            padding: 10px;
+            margin: auto;
+        }
+        tr
+        {
+         
+            background-color:rgb(16, 172, 219);
+            padding: 10px;
+           
+        }
+        input[type="text"]
+        {
+            width:85%;
+            padding: 1px;
+            margin-left: auto;
+        }
+        input[name]
+        {
+            background-color:rgb(171, 226, 171);
+        }
+        textarea
+        {
+            background-color:rgb(171, 226, 171);
+            padding: 1px;
+            margin-bottom: auto;
+        }
+        select
+        {
+            width:90%;
+            padding: 1px;
+            margin-left: 5px;
+            background-color:rgb(171, 226, 171);
+        } 
+       
+        input[type="Click me"]
+        {
+            height: 20px; 
+            width: 25%;
+            padding:2px;
+            margin-left: 5px;
+            text-align: center;
+        }
+        input[type="reset"]
+        {
+            height: 26px; 
+            width: 25%;
+            padding:2px;
+            margin:2px; 
+        }
+        input[type="Submit Form"]
+        {
+            height: 20px; 
+            width: 25%;
+            padding:2px;
+            margin-left: 5px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+<form method="post">
+    <center>
+    <table border="1" width="60%" style="margin-top: 120px;">
+            <tr>
+                <th colspan="2" style="color:red; background-color:rgb(253, 253, 192); font-size: 25px; padding: 1px;">User Form</th>
+            </tr>
+            <tr>
+                <th width="25%" align="left"> Enter Name</th>
+                <td align="center"><input type="text" name="name"></td>
+            </tr>
+
+            <tr>
+                <th width="25%" align="left">Enter Password</th>
+                <td align="center"><input type="text" name="Pwd" size="20">
+                </td>     
+            </tr> 
+
+            <tr>
+                <th width="25%" align="left">Enter Address</th>
+                <td align="center">
+                <textarea name="Addr" id="text" cols="52" rows="3"></textarea>
+                </td>
+            </tr> 
+            
+            <tr>
+                <th width="25%" align="left">Select Game</th>
+                <td style="padding-left:36px;"> 
+                    <input type="checkbox" name="hky" value="Hockey">Hockey 
+                    <br>
+                    <input type="checkbox" name="fb" value="Foot ball">Foot ball 
+                    <br>
+                    <input type="checkbox" name="bm" value="Badminton">Badminton 
+                    <br>
+                    <input type="checkbox" name="ck" value="Cricket">Cricket 
+                    <br>
+                    <input type="checkbox" name="vb" value="Volley ball">Volley ball 
+                </td> 
+            </tr>
+
+            <tr>
+                    <th width="25%" align="left">Gender</th>
+                    <td style="padding-left:36px;"><input type="radio" name="gender" value="male">Male 
+                    <input type="radio" name="gender" value="female">Female
+                    </td> 
+            </tr>
+                
+            <tr>
+                    <th width="25%" align="left">Select your Age</th>
+                    <td style="padding-left:36px;"><select name="select age" required>
+                    <option value="">select</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option></select>
+                    </td>
+            </tr>
+                
+            <tr>
+                    <td colspan="2" align="center"><input type="file" name="file"  value="Choose file "></td>
+            </tr>
+            
+            <tr align="center">
+                    <td colspan="2">
+                        <input type="Click me" name="clk me" value="Click me">
+                        <input type="reset" name="reset" value="Reset">
+                        <input type="Submit Form" name="sub" value="Submit Form">
+                    </td>
+            </tr>
+    </table>    
+    </center>
+</form>    
+</body>
+</html>

@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style type="text/css">
+     body
+     {
+        background-color:rgb(104, 197, 104);
+        padding-top: 20px;
+        margin-top: 50px;
+     }
+     fieldset
+     {
+         
+         background-color:rgb(99, 221, 42);
+         width:50%;
+         height: auto;
+         font-family: cursive;
+         border-style:solid;
+         border-width: 2px;
+         border-color: black;
+     }
+     legend
+     {
+       font-size: 25px;
+       font-weight: 100; 
+     }
+     ul
+     {
+         text-align: left;
+     }
+     input[type=text]
+     {
+        margin-left: 80px;
+     }
+     textarea
+     {
+        margin-left: 80px;
+     }
+     
+    </style>
+</head>
+<body>
+    <form method="post">
+    <center>
+    <fieldset>
+       <legend align="center">User  Form</legend>
+       
+       <ul><li><label>FIRST NAME</label>
+       <input type="text" name="Fnm" ></li></ul>
+
+       <ul><li><label>PASSWORD</label>
+       &nbsp;&nbsp;<input type="text" name="Pwd"></li></ul>
+
+       <ul><li><label>GENDER</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" style="margin-left:15%;"  name="gender" value="male">Male
+       <input type="radio" name="gender" value="female">Female</li></ul>
+       
+
+       <ul><li><label>ADDRESS</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea name="Addr" id="text" cols="28" rows="4"></textarea></li></ul>
+       
+
+       <ul><li><label>D.O.B.</label>
+       &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+        <select style="margin-left: 90px;" >
+            <option value="">january</option>
+            <option value="">february</option>
+            <option value="">march</option>
+            <option value="">april</option>
+            <option value="">may</option>
+            <option value="">june</option>
+            <option value="">july</option>
+            <option value="">august</option>
+            <option value="">september</option>
+            <option value="">october</option>
+            <option value="">november</option>
+            <option value="">december</option>
+       </select>
+       <select>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+            <option value="">13</option>
+            <option value="">14</option>
+            <option value="">15</option>
+            <option value="">16</option>
+            <option value="">17</option>
+            <option value="">18</option>
+            <option value="">19</option>
+            <option value="">20</option>
+            <option value="">21</option>
+            <option value="">22</option>
+            <option value="">23</option>
+            <option value="">24</option>
+            <option value="">25</option>
+            <option value="">26</option>
+            <option value="">27</option>
+            <option value="">28</option>
+            <option value="">29</option>
+            <option value="">30</option>
+            <option value="">31</option>
+        </select>
+        <select>
+            <option value="">1990</option>
+            <option value="">1991</option>
+            <option value="">1992</option>
+            <option value="">1993</option>
+            <option value="">1994</option>
+            <option value="">1995</option>
+            <option value="">1996</option>
+            <option value="">1997</option>
+            <option value="">1998</option>
+            <option value="">1999</option>
+            <option value="">2000</option>
+            <option value="">2001</option>
+            <option value="">2002</option>
+            <option value="">2003</option>
+            <option value="">2004</option>
+            <option value="">2005</option>
+        </select></li></ul>
+        
+
+        <ul><li><label>SELECT GAMES</label>
+        <input type="checkbox" style="margin-left:10%;" name="hky" value="Hockey">Hockey
+        <input type="checkbox" name="fb" value="Foot ball">Foot ball 
+        <input type="checkbox" name="ck" value="Cricket">Cricket
+        <input type="checkbox" name="vb" value="Volley ball">Volley ball</li></ul>
+         
+
+        <ul><li><label>MATERIAL STATUS</label>
+        <input type="checkbox" style="margin-left:4%;" name="mrd" value="married">married
+        <input type="checkbox" name="unmrd" value="unmarried">unmarried</li></ul>
+        
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" name="reset" value="Reset">
+        <br><br>
+        
+
+       <input type="checkbox" name="accept">I accept this agrement
+    </fieldset>
+    </center>
+    </form>
+
+    
+</body>
+</html>
